@@ -1,0 +1,155 @@
+.bloodbank_frm_container {
+	max-width:600px;
+	margin:0 auto;
+	border-radius:3px;
+	padding:15px 15px 0 15px;
+}
+.bloodbank_frm_container h3 {
+	font-size:22px;
+	color:#1e1d1c;
+	text-transform:uppercase;
+	line-height:31px;
+	font-weight:600;
+	border-bottom:1px solid #eee;
+
+}
+.bloodbank_frm_sub_wrapp {
+	display:block;
+	border:1px solid #eee;
+	border-radius:4px;
+	padding:15px;
+	text-align:left;
+	float:left;
+	margin-bottom:15px;
+	width:100%;	
+}
+.bloodbank_frm_extfield_outer_wrapp {
+	display:block;
+	width:100%;	
+	margin:20px 0 0;
+}
+.bloodbank_frm_sub_wrapp button {
+	display:inline-block;
+	width:auto;
+	padding:0px 20px 0 20px;
+	color:#fff;
+	font-size:14px;
+	text-transform:uppercase;
+	margin:20px 0 0;
+	border:1px solid #eee;
+	border-radius:4px;
+	background:#60c011;
+	height:33px;
+	float:right;
+	line-height:14px;
+}
+.bloodbank_frm_extfield_outer_wrapp label {
+	width:24%;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	color:#1e1d1c;
+	font-weight:300;
+}
+.bloodbank_frm_extfield_outer_wrapp > input[type=text], input[type=password]  {
+	height:33px;
+	width:75%;
+	border:1px solid #eee;
+	color:#1e1d1c;
+	font-size:12px;
+	font-weight:normal;
+	padding:6px;
+}
+.bloodbank_frm_extfield_outer_wrapp > input[type=file]  {
+	width:75%;
+}
+.bloodbank_frm_extfield_outer_wrapp select {
+	height:33px;
+	width:75%;
+	border:1px solid #eee;
+	color:#1e1d1c;
+	font-size:12px;
+	font-weight:normal;
+	padding:6px;
+}
+.bloodbank_frm_extfield_outer_wrapp textarea {
+	width:75%;
+	border:1px solid #eee;
+	color:#1e1d1c;
+	font-size:12px;
+	font-weight:normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:6px;
+	min-height:150px
+}
+.bloodbank_frm_error {
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	color:#F00;
+	font-weight:300;
+	margin:15px 0;
+	display:block;
+	text-align:justify;
+	padding-left:17px;
+}
+.bloodbank_frm_updated {
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	color:#060;
+	font-weight:300;
+	margin:15px 0;
+	display:block;
+	text-align:justify;
+	padding-left:17px;
+}
+.bloodbank_request_container {
+	max-width:600px;
+	margin:0 auto;
+	border-radius:3px;
+	padding:15px 15px 0 15px;
+}
+.bloodbank_request_container h3 {
+	font-size:22px;
+	color:#1e1d1c;
+	text-transform:uppercase;
+	line-height:31px;
+	font-weight:600;
+	border-bottom:1px solid #eee;
+
+}
+.bloodbank_request_sub_wrapp {
+	display:block;
+	border:1px solid #eee;
+	border-radius:4px;
+	padding:15px;
+	text-align:left;
+	float:left;
+	margin-bottom:15px;
+	width:100%;	
+}
+.bloodbank_request_extfield_outer_wrapp {
+	display:block;
+	width:100%;	
+	margin:20px 0 0;
+}
+.bloodbank_request_extfield_outer_wrapp label {
+	width:24%;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	color:#1e1d1c;
+	font-weight:300;
+}
+.bloodbank_request_extfield_outer_wrapp > p  {
+	height:auto;
+	width:97%;
+	border:1px solid #eee;
+	color:#1e1d1c;
+	font-size:12px;
+	font-weight:normal;
+	padding:6px;
+}

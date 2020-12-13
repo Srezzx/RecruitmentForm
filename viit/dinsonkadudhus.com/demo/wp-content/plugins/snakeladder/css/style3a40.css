@@ -1,0 +1,700 @@
+img {
+	box-shadow:none!important;
+	border:none!important;	
+}
+/* Main Styles */
+.caduthuz_snakeladder_main {
+	padding:0 0 0 0!important;
+	margin:0 0 0 0!important;
+}
+.caduthuz_snakeladder_main a {
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.caduthuz_snakeladder_main a:hover {
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.caduthuz_snakeladder_header_area {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:left;
+	display:block;
+	width:100%;
+}
+.caduthuz_snakeladder_navigation {
+	padding:10px 3%;
+	margin:0 0 0 0;
+	min-height:20px;
+	vertical-align:middle;
+	display:block;
+	float:left;
+	width:94%;
+	color:#ffffff;
+	background: #191919; /* Old browsers */
+	background: -moz-linear-gradient(top, #191919 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191919), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #191919 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #191919 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #191919 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #191919 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.caduthuz_snakeladder_navigation .right_area {
+	padding:0 0 0 0;
+	margin:5px 0 0 0!important;
+	text-align:left;
+	float:left;
+}
+.caduthuz_snakeladder_navigation .navigation {
+	padding:0 0 0 0;
+	margin:5px 0 5px 0;
+	text-align:left;
+	float:right;
+	display:inline-block;
+}
+.caduthuz_snakeladder_navigation .navigation .nav {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+	text-align:left;
+}
+.caduthuz_snakeladder_navigation .navigation .nav li {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	display:inline-flex;
+}
+.caduthuz_snakeladder_navigation .navigation .nav li a {
+	padding:5px 20px;
+	background-color:rgba(251,251,251,0.2);
+	color:#ffffff;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-radius:25px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	font-size:12px;
+	text-decoration:none;
+}
+.caduthuz_snakeladder_navigation .navigation .nav li a:hover {
+	background-color:rgba(251,251,251,0.5);
+}
+.caduthuz_snakeladder_navigation .navigation .nav li a.active {
+	background-color:rgba(251,251,251,0.5);
+}
+.caduthuz_snakeladder_head_nav_cont {
+	padding:20px 5%;
+	margin:0 0 0 0;
+	background-color:#CCCCCC;
+	display:none;
+	width:90%;
+	float:left;
+}
+.caduthuz_snakeladder_head_nav_cont .date_set {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font-size:11px;
+}
+.caduthuz_snakeladder_head_nav_cont input {
+	padding:10px;
+	margin:3px 0;
+}
+.caduthuz_snakeladder_head_nav_cont select {
+	padding:10px;
+	margin:3px 0;
+}
+.caduthuz_snakeladder_head_nav_cont button {
+	padding:10px 20px;
+	background:#333333;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-weight:14px;
+	border:0;
+	font-weight:bold;
+}
+.caduthuz_snakeladder_head_nav_cont .date_set form {
+	padding:0 0 10px 0;
+}
+.caduthuz_snakeladder_head_nav_cont .date_float {
+	padding:0 20px 0 0;
+	float:left;
+}
+.caduthuz_snakeladder_head_nav_cont .button_float {
+	padding:4px 0 0 0;
+	float:left;
+}
+.caduthuz_snakeladder_head_detail {
+	padding:10px 5%;
+	margin:0 0 0 0;
+	color:#ffffff;
+	width:90%;
+	float:left;
+	background: #3f3f3f; /* Old browsers */
+	background: -moz-linear-gradient(top, #3f3f3f 0%, #333333 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f3f3f), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3f3f3f 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #3f3f3f 0%,#333333 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #3f3f3f 0%,#333333 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #3f3f3f 0%,#333333 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+}
+.caduthuz_snakeladder_head_detail .left {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:left;
+	text-align:left;
+	text-align:center;
+}
+.caduthuz_snakeladder_head_detail .left .total_count {
+	padding:5px 28px;
+	margin:0 0 0 0;
+	background-color:#666666;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:12px;
+	text-align:left;
+	border-radius:25px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	display:inline-table;
+	font-style:italic;
+}
+.caduthuz_snakeladder_head_detail .left .between {
+	padding:5px 20px;
+	margin:0 0 0 0;
+	display:inline-table;
+	color:#ffffff;
+}
+.caduthuz_snakeladder_head_detail .left .between a {
+	color:#cccccc;
+	font-style:italic;
+	text-decoration:none;
+}
+.caduthuz_snakeladder_head_detail .left .between a:hover {
+	color:#cccccc;
+	font-style:italic;
+	text-decoration:underline;
+}
+.caduthuz_snakeladder_head_detail .right {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:right;
+	text-align:right;
+}
+.caduthuz_snakeladder_head_detail .right .icos {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+	text-align:right;
+}
+.caduthuz_snakeladder_head_detail .right .icos li {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	display:inline-table;
+}
+.caduthuz_snakeladder_head_detail .right .icos li a {
+	padding:5px 0 0 0;
+	margin:0 0 0 0;
+	display:block;
+	width:25px;
+	height:20px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:rgba(251,251,251,0.2);
+	text-align:center;
+}
+.caduthuz_snakeladder_head_detail .right .icos li a:hover {
+	background-color:rgba(251,251,251,0.4);
+}
+.caduthuz_snakeladder_head_detail .right .icos li a img {
+	width:15px;
+}
+.caduthuz_snakeladder_game_wrap {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	max-width:100%;
+	float:left;
+	overflow:hidden;
+	border-bottom:1px solid #000;
+	text-align:center;
+}
+.caduthuz_snakeladder_game_left {
+	width:670px;
+	height:650px;
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+.caduthuz_snakeladder_game_right {
+	width:670px;
+	height:650px;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	border:#000000 solid 1px!important;
+	border-bottom:none;
+	vertical-align:top;
+	display:inline-block;
+}
+.caduthuz-snake-ladder-history {
+	width:100%;
+	height:299px;
+	display:block;
+	margin:0;
+	padding:0;
+	border-bottom:#000000 solid 1px;
+}
+.caduthuz-snake-ladder-history h2 {
+	width:100%;
+	height:30px!important;
+	line-height:30px!important;
+	font-size:16px!important;
+	text-align:center!important;
+	display:block!important;
+	padding:0 0 0 0!important;
+	margin:0 0 0 0!important;
+	color:#ffffff!important;
+	background: #191919; /* Old browsers */
+	background: -moz-linear-gradient(top, #191919 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191919), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #191919 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #191919 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #191919 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #191919 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.caduthuz-snake-ladder-history-left {
+	width:49%;
+	height:259px;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+.caduthuz-snake-ladder-history-left .total_count {
+	width:98%;
+	padding:5px 10px;
+	margin:10px 0 0 5px;
+	background-color:#666666;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:12px;
+	text-align:left;
+	border-radius:25px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	display:block;
+	font-style:italic;
+	line-height:normal!important;
+}
+.caduthuz-snake-ladder-history-right {
+	width:47%;
+	height:259px;
+	display:inline-block;
+	margin:0 0 0 3%;
+	padding:0;
+	overflow:scroll;
+	overflow-x: hidden;
+	border-left:#000000 solid 1px;
+	padding-bottom:10px;
+}
+.caduthuz-snake-ladder-history-right p{
+	width:99%;
+	height:auto;
+	margin:5px 10px!important;
+	padding:0;
+	font-size:12px!important;
+	text-align:left!important;
+	line-height:14px!important;
+}
+.caduthuz-snake-ladder-main-info-box {
+	width:670px;
+	height:49px;
+	display:block;
+	margin:0;
+	padding:0;
+	float:left;
+	font-size:14px;
+	line-height:50px;
+	padding:0;
+	margin:0;
+	color:#333;
+}
+.caduthuz_snakeladder_tab {
+	display:none;
+}
+/* ----------------- Game Area -------------------- */
+.caduthuz-snake-ladder-warpper {
+	width:600px;
+	height:650px;
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	margin:0 auto;
+}
+.caduthuz-snake-ladder-board {
+	z-index:0.5;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.caduthuz-snake-ladder-player-1 {
+	z-index:1;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.caduthuz-snake-ladder-player-2 {
+	z-index:1;
+	position:absolute;
+	left:55px;
+	bottom:0;
+}
+.caduthuz-snake-ladder-dice {
+	z-index:1;
+	position:absolute;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+}
+.caduthuz-snake-ladder-who-is {
+	z-index:0;
+	position:absolute;
+	right:110px;
+	bottom:0;
+	overflow:hidden;
+	width:100px;
+	height:48px;
+	font-size:12px;
+	line-height:48px;
+	color:#333;
+}
+.caduthuz-snake-ladder-dice_roll_no {
+	z-index:1;
+	position:absolute;
+	left:110px;
+	bottom:0;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+	font-size:24px;
+	line-height:48px;
+	color:#000;
+}
+.caduthuz-snake-ladder-dice_roll_no img{
+	width:48px;
+	height:48px;
+	display:none;
+}
+.caduthuz-snake-ladder-play-agin {
+	z-index:1;
+	position:absolute;
+	left:160px;
+	bottom:0;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+}
+.caduthuz-snake-ladder-play-agin img {
+	width:48px;
+	height:48px;
+	display:none;
+	cursor:pointer;
+}
+
+.caduthuz-snake-ladder-dice_roll {
+	z-index:1;
+	position:absolute;
+	right:55px;
+	bottom:0;
+	overflow:hidden;
+	width:48px;
+	height:48px;
+}
+#caduthuz-snake-ladder-dice-roll-dice-player-1 {
+	cursor:pointer;
+	border:none;
+}
+.caduthuz-snake-ladder-player-pos {
+	font-size: 30px;
+	color:#F00;
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:500px;
+}
+/* ----------------- Game Area -------------------- */
+/* Preloader */
+
+#mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 10000;
+  height: 100%;
+}
+
+#loader {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image:url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+
+.error_msg {
+	color:#F00;
+	display:none;
+}
+.error {
+	border:#F00 solid 1px;
+}
+.caduthuz_footer_outer {
+	width:100%;
+	display:block;
+	float:left;
+	background: #191919; /* Old browsers */
+	background: -moz-linear-gradient(top, #191919 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#191919), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #191919 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #191919 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #191919 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #191919 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.caduthuz_footer_outer p {
+	text-align:right;
+	color:#FFF;
+	margin-right:25px!important;
+	line-height:40px!important;
+	margin-bottom:0px!important;
+}
+.caduthuz_footer_outer p a {
+	color:#FFF;
+	text-decoration:none;
+}
+.caduthuz_footer_outer p a:hover {
+	text-decoration:underline;	
+}
+
+ /* --------------------------------------------
+1024 x 768 (iPad - Landscape)
+-------------------------------------------- */		
+@media screen and (max-width: 1200px) {
+.caduthuz_snakeladder_head_detail {
+	width:96%;
+	padding:10px 2%;	
+}
+.caduthuz_snakeladder_navigation {
+	width:96%;
+	padding:10px 2%;	
+}
+.caduthuz_snakeladder_head_nav_cont {
+	width:96%;
+	padding:20px 2%;	
+}
+.caduthuz_snakeladder_head_detail .left .between {
+	padding: 5px 10px;	
+}
+.caduthuz_snakeladder_game_left {
+	display:block!important;
+	width:100%;	
+}
+.caduthuz_snakeladder_game_wrap {
+	border:none;
+	text-align:center;
+	width:100%;
+}
+.caduthuz_snakeladder_game_right {
+	display:block;
+	width:auto!important;
+	float:none;	
+}
+.caduthuz-snake-ladder-main-info-box {
+	border-right:none;
+	border-bottom:1px solid #000;
+	/*width:99%;
+	padding-left:1%*/;	
+}
+
+}
+
+
+  /* --------------------------------------------
+	 (iPad - Portrait) &  ( mobile phone )
+-------------------------------------------- */		
+@media (max-width: 979px) {
+.caduthuz_snakeladder_head_detail .left {
+	float:none;
+	text-align:center;	
+}
+.caduthuz_snakeladder_head_detail .left .between {
+	padding:15px;
+}
+}
+
+
+
+     /* --------------------------------------------
+ 480 x 320 (mobile)
+-------------------------------------------- */	
+@media (max-width: 767px) {
+
+.caduthuz-snake-ladder-warpper {
+	width:550px;
+	height:600px;	
+}
+.caduthuz-snake-ladder-warpper img {
+	width:100%;
+	max-width:100%;	
+}
+.caduthuz-snake-ladder-player-2, .caduthuz-snake-ladder-player-1, .caduthuz-snake-ladder-dice_roll, #caduthuz-snake-ladder-dice-roll-player-1, #caduthuz-snake-ladder-dice-roll-player-2 {
+	width:38px!important;
+	height:38px!important;	
+}
+.caduthuz_snakeladder_game_left {
+	height:auto!important;
+	margin-bottom:20px;	
+}
+.caduthuz-snake-ladder-dice_roll img {
+	width:38px!important;
+	height:38px!important;	
+}
+.caduthuz-snake-ladder-dice {
+    bottom: 0;
+    height: 38px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 38px;
+    z-index: 1;
+}
+.caduthuz_snakeladder_navigation {
+	text-align:center;	
+}
+.caduthuz_snakeladder_navigation .right_area {
+	float:none;
+	text-align:center;
+	margin:12px 0;	
+}
+.caduthuz_snakeladder_navigation .navigation .nav {
+	text-align:center;
+}
+.caduthuz_snakeladder_navigation .navigation .nav li {
+	margin-top:3px;
+	margin-bottom:3px;	
+}
+.caduthuz_snakeladder_navigation .navigation {
+    display: inline-block;
+    float: none;
+    margin: 6px auto 12px auto;
+    padding: 0;
+    text-align: center;
+}
+.caduthuz_footer_outer p {
+	text-align:center;
+	color:#FFF;
+	margin-right:0;
+}
+}
+@media (max-width:480px) { 
+.caduthuz-snake-ladder-warpper {
+	width:340px;
+	height:400px;	
+}
+.caduthuz-snake-ladder-warpper img {
+	width:100%;
+	max-width:100%;	
+}
+.caduthuz-snake-ladder-player-2, .caduthuz-snake-ladder-player-1, .caduthuz-snake-ladder-dice_roll, #caduthuz-snake-ladder-dice-roll-player-1, #caduthuz-snake-ladder-dice-roll-player-2 {
+	width:30px!important;
+	height:30px!important;	
+}
+.caduthuz-snake-ladder-dice_roll img {
+	width:30px!important;
+	height:30px!important;	
+}
+
+.caduthuz_snakeladder_head_detail .left .total_count {
+	margin-top:5px;
+	margin-bottom:5px;	
+}
+.caduthuz_snakeladder_game_left {
+	height:auto!important;
+	margin-bottom:20px;	
+}
+.caduthuz-snake-ladder-history-left {
+	float:left;
+	width:45%;	
+}
+.caduthuz-snake-ladder-history-right {
+	border-left:0px!important;
+	width:45%!important;
+	float:right!important;
+	margin-left:5!important%;	
+}
+.caduthuz-snake-ladder-dice {
+    bottom: 0;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    z-index: 1;
+}
+}
+
+     /* --------------------------------------------
+      320 (mobile)
+-------------------------------------------- */	
+ @media (max-width: 320px) {
+.caduthuz-snake-ladder-warpper {
+	width:290px;
+	height:350px;	
+}
+.caduthuz-snake-ladder-warpper img {
+	width:100%;
+	max-width:100%;	
+}
+.caduthuz-snake-ladder-player-2, .caduthuz-snake-ladder-player-1, .caduthuz-snake-ladder-dice_roll {
+	width:25px!important;
+	height:25px!important;	
+}
+.caduthuz-snake-ladder-dice_roll img {
+	width:25px!important;
+	height:25px!important;	
+}
+.caduthuz_snakeladder_game_left {
+	height:auto!important;
+	margin-bottom:20px;	
+}
+.caduthuz-snake-ladder-dice {
+    bottom: 0;
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 25px;
+    z-index: 1;
+}
+
+ }
